@@ -1,9 +1,78 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36" version="27.0.6">
   <diagram name="Страница — 1" id="R8fGcSXPEDaAYdbWEf7H">
-    <mxGraphModel>
+    <mxGraphModel dx="1251" dy="817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ItV3FQNscdhAU02XCBLJ-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="10" width="980" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="ItV3FQNscdhAU02XCBLJ-1" value="Administrator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="380" width="160" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ItV3FQNscdhAU02XCBLJ-2" value="+ Button_UserAdd&lt;div&gt;+ Button_UserDelete&lt;br&gt;+ Button_UserEdit&lt;br&gt;+ Button_TAdd&lt;br&gt;+ Button_TDelete&lt;br&gt;+ Button_TEdit&lt;br&gt;+ Button_Auth&lt;br&gt;+ Button_CreateExcel&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ItV3FQNscdhAU02XCBLJ-1">
+          <mxGeometry y="26" width="160" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="ItV3FQNscdhAU02XCBLJ-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ItV3FQNscdhAU02XCBLJ-1">
+          <mxGeometry y="160" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ItV3FQNscdhAU02XCBLJ-4" value="+ AddUser();&lt;div&gt;+ DeleteUser();&lt;br&gt;+ Edit();&lt;br&gt;+ TourAdd();&lt;/div&gt;&lt;div&gt;+ TourDelete();&lt;/div&gt;&lt;div&gt;+ TourEdit();&lt;br&gt;+ Auth();&lt;br&gt;+ CreateExcelTable();&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ItV3FQNscdhAU02XCBLJ-1">
+          <mxGeometry y="168" width="160" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="ItV3FQNscdhAU02XCBLJ-5" value="User" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="40" width="200" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="ItV3FQNscdhAU02XCBLJ-6" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap-mode: wrap; word-break: break-all; font-size: 12.573px; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;+ Button_ApplyOn&lt;br&gt;+ Button_Auth&lt;br&gt;+ Button_Settings&lt;br&gt;+ Button_ViewTable&lt;br/&gt;+ Button_CreateExcel&lt;/font&gt;&lt;/pre&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ItV3FQNscdhAU02XCBLJ-5">
+          <mxGeometry y="26" width="200" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="ItV3FQNscdhAU02XCBLJ-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ItV3FQNscdhAU02XCBLJ-5">
+          <mxGeometry y="130" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ItV3FQNscdhAU02XCBLJ-8" value="+ ApplyOn():;&lt;div&gt;+ Auth();&lt;/div&gt;&lt;div&gt;+ CabinetSettings();&lt;/div&gt;&lt;div&gt;+ View_View();&lt;/div&gt;&lt;div&gt;+ CreateExcelTable();&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ItV3FQNscdhAU02XCBLJ-5">
+          <mxGeometry y="138" width="200" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="ItV3FQNscdhAU02XCBLJ-9" value="System" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="40" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ItV3FQNscdhAU02XCBLJ-10" value="+ Form_Auth&lt;br&gt;+ Form_Registration&lt;div&gt;+ Form_UserCabinet&lt;br&gt;+ Form_Administration&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ItV3FQNscdhAU02XCBLJ-9">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="ItV3FQNscdhAU02XCBLJ-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ItV3FQNscdhAU02XCBLJ-9">
+          <mxGeometry y="90" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ItV3FQNscdhAU02XCBLJ-12" value="+ Launching_the_Form();&lt;div&gt;+ Form_Closing();&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ItV3FQNscdhAU02XCBLJ-9">
+          <mxGeometry y="98" width="160" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="ItV3FQNscdhAU02XCBLJ-13" value="Guest" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="40" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="ItV3FQNscdhAU02XCBLJ-14" value="+ Button_Registration" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ItV3FQNscdhAU02XCBLJ-13">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ItV3FQNscdhAU02XCBLJ-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ItV3FQNscdhAU02XCBLJ-13">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ItV3FQNscdhAU02XCBLJ-16" value="+ Registration();" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ItV3FQNscdhAU02XCBLJ-13">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ItV3FQNscdhAU02XCBLJ-17" value="" style="endArrow=diamondThin;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endFill=0;strokeWidth=1;targetPerimeterSpacing=0;endSize=14;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="100" as="sourcePoint" />
+            <mxPoint x="530" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ItV3FQNscdhAU02XCBLJ-19" value="" style="endArrow=diamondThin;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endFill=0;strokeWidth=1;targetPerimeterSpacing=0;endSize=14;" edge="1" parent="1" source="ItV3FQNscdhAU02XCBLJ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="280" as="sourcePoint" />
+            <mxPoint x="610" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ItV3FQNscdhAU02XCBLJ-18" value="" style="endArrow=diamondThin;html=1;rounded=0;exitX=0;exitY=0.308;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;endFill=0;strokeWidth=1;targetPerimeterSpacing=0;endSize=14;" edge="1" parent="1" source="ItV3FQNscdhAU02XCBLJ-6" target="ItV3FQNscdhAU02XCBLJ-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="280" as="sourcePoint" />
+            <mxPoint x="410" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
