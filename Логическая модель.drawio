@@ -5,73 +5,73 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="CgTxeYAuQG1rS6yxV_Gh-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="590" width="760" x="-20" y="50" as="geometry" />
+          <mxGeometry height="590" width="760" x="-30" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-1" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Пользователи" vertex="1">
+        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-1" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Users" vertex="1">
           <mxGeometry height="210" width="140" x="70" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-2" parent="CgTxeYAuQG1rS6yxV_Gh-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Идентификатор PK" vertex="1">
+        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-2" parent="CgTxeYAuQG1rS6yxV_Gh-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="UserID int PK" vertex="1">
           <mxGeometry height="30" width="140" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-3" parent="CgTxeYAuQG1rS6yxV_Gh-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Роль" vertex="1">
+        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-3" parent="CgTxeYAuQG1rS6yxV_Gh-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="IsAdmin int" vertex="1">
           <mxGeometry height="30" width="140" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-4" parent="CgTxeYAuQG1rS6yxV_Gh-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Логин" vertex="1">
+        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-4" parent="CgTxeYAuQG1rS6yxV_Gh-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Username text&amp;nbsp;" vertex="1">
           <mxGeometry height="30" width="140" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-13" parent="CgTxeYAuQG1rS6yxV_Gh-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Пароль" vertex="1">
+        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-13" parent="CgTxeYAuQG1rS6yxV_Gh-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Password text" vertex="1">
           <mxGeometry height="30" width="140" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-14" parent="CgTxeYAuQG1rS6yxV_Gh-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Email" vertex="1">
+        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-14" parent="CgTxeYAuQG1rS6yxV_Gh-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Email text" vertex="1">
           <mxGeometry height="30" width="140" y="150" as="geometry" />
         </mxCell>
-        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-15" parent="CgTxeYAuQG1rS6yxV_Gh-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="ФИО" vertex="1">
+        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-15" parent="CgTxeYAuQG1rS6yxV_Gh-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Fullname text" vertex="1">
           <mxGeometry height="30" width="140" y="180" as="geometry" />
         </mxCell>
-        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-5" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Участники турниров" vertex="1">
-          <mxGeometry height="150" width="140" x="70" y="440" as="geometry" />
+        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-5" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="TournamentParticipants" vertex="1">
+          <mxGeometry height="150" width="160" x="70" y="440" as="geometry" />
         </mxCell>
-        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-6" parent="CgTxeYAuQG1rS6yxV_Gh-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Идентификатор PK" vertex="1">
-          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-6" parent="CgTxeYAuQG1rS6yxV_Gh-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="ID int PK&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="160" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-7" parent="CgTxeYAuQG1rS6yxV_Gh-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="ИД турнира FK" vertex="1">
-          <mxGeometry height="30" width="140" y="60" as="geometry" />
+        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-7" parent="CgTxeYAuQG1rS6yxV_Gh-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="TournamentID int FK" vertex="1">
+          <mxGeometry height="30" width="160" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-8" parent="CgTxeYAuQG1rS6yxV_Gh-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="ИД пользователя FK" vertex="1">
-          <mxGeometry height="30" width="140" y="90" as="geometry" />
+        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-8" parent="CgTxeYAuQG1rS6yxV_Gh-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="UserID int FK" vertex="1">
+          <mxGeometry height="30" width="160" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-20" parent="CgTxeYAuQG1rS6yxV_Gh-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Дата регистрации" vertex="1">
-          <mxGeometry height="30" width="140" y="120" as="geometry" />
+        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-20" parent="CgTxeYAuQG1rS6yxV_Gh-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="RegistrationDate datetime" vertex="1">
+          <mxGeometry height="30" width="160" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-9" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Турниры" vertex="1">
+        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-9" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Tournaments" vertex="1">
           <mxGeometry height="240" width="140" x="500" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-10" parent="CgTxeYAuQG1rS6yxV_Gh-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Идентификатор PK" vertex="1">
+        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-10" parent="CgTxeYAuQG1rS6yxV_Gh-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="TournamentID int PK" vertex="1">
           <mxGeometry height="30" width="140" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-11" parent="CgTxeYAuQG1rS6yxV_Gh-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Создатель FK" vertex="1">
+        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-11" parent="CgTxeYAuQG1rS6yxV_Gh-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="CreatedBy int FK" vertex="1">
           <mxGeometry height="30" width="140" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-12" parent="CgTxeYAuQG1rS6yxV_Gh-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Название" vertex="1">
+        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-12" parent="CgTxeYAuQG1rS6yxV_Gh-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Name text" vertex="1">
           <mxGeometry height="30" width="140" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-16" parent="CgTxeYAuQG1rS6yxV_Gh-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Описание" vertex="1">
+        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-16" parent="CgTxeYAuQG1rS6yxV_Gh-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Discription text" vertex="1">
           <mxGeometry height="30" width="140" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-17" parent="CgTxeYAuQG1rS6yxV_Gh-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Дата начала" vertex="1">
+        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-17" parent="CgTxeYAuQG1rS6yxV_Gh-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="StartDate datetime" vertex="1">
           <mxGeometry height="30" width="140" y="150" as="geometry" />
         </mxCell>
-        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-18" parent="CgTxeYAuQG1rS6yxV_Gh-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Дата окончания" vertex="1">
+        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-18" parent="CgTxeYAuQG1rS6yxV_Gh-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="EndDate datetime" vertex="1">
           <mxGeometry height="30" width="140" y="180" as="geometry" />
         </mxCell>
-        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-19" parent="CgTxeYAuQG1rS6yxV_Gh-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Макс.участников" vertex="1">
+        <mxCell id="CgTxeYAuQG1rS6yxV_Gh-19" parent="CgTxeYAuQG1rS6yxV_Gh-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="MaxParticipants int" vertex="1">
           <mxGeometry height="30" width="140" y="210" as="geometry" />
         </mxCell>
         <mxCell id="CgTxeYAuQG1rS6yxV_Gh-22" edge="1" parent="1" source="CgTxeYAuQG1rS6yxV_Gh-2" style="endArrow=ERmany;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;endFill=0;" target="CgTxeYAuQG1rS6yxV_Gh-11" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
               <mxPoint x="280" y="165" />
-              <mxPoint x="280" y="190" />
+              <mxPoint x="280" y="195" />
             </Array>
             <mxPoint x="290" y="390" as="sourcePoint" />
             <mxPoint x="340" y="340" as="targetPoint" />
